@@ -1,0 +1,34 @@
+article.pokemon {
+    grid-column: span 12;
+    padding: 20px;
+    border: 15px solid $yellow;
+    background: radial-gradient(circle, rgba(255,0,0,1) 0%, rgba(255,243,0,1) 100%);
+    header.header-pokemon {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 20px 0 10px 0;
+        h2 {
+            font-size: 2em;
+            color: teal;
+        }
+    }
+    div.img-pokemon {
+        border: 5px solid $yellow;
+        padding: 10px;
+        img {
+            display: block;
+            width: 40%;
+            margin: 0 auto;
+        }
+    }
+    div.moves-pokemon {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 20px 0;
+    }
+    footer.footer-pokemon {
+        text-align: center;
+    }
+}
